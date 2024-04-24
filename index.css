@@ -177,24 +177,42 @@ header h1 {
 
 /* Films */
 
+/* Partie du haut (le film) */
+
 .image_container {
     width: 20%;
+    border: 5px solid white;
+    position: relative;
+}
+
+.image_container p {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    font-size: 10px;
 }
 
 #movie_list h2 {
-    color: #176CB0;
-}
-
-#movie_list {
-    background-color: red;
     width: 90%;
     margin: auto;
-    margin-top: 20px;
+    color: #176CB0;
+    margin-bottom: 20px;
+}
+
+#movie_list ul {
+    background-color: #ECECEC;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 2px solid gray;
 }
 
 .top_movie {
-    background-color: gray;
     display: flex;
+    margin-top: 10px;
 }
 
 .preview_movie {
@@ -202,7 +220,63 @@ header h1 {
     width: 50%;
 }
 
+.info_movie {
+    margin: 0px 10px;
+}
+
+.info_movie h3 {
+    display: flex;
+    align-items: center;
+}
+
+
+h3 .material-symbols-outlined {
+    margin-left: 10px; 
+}
+
 .movie_description {
-    background-color: blue;
     width: 50%;
+    font-size: 13px;
+}
+
+.category {
+    background-color: #508B1A;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+/* Partie du bas (les séances) */
+
+.bot_movie {
+    background-color: #C4C4C4;
+    display: flex;
+    margin-top: 10px;
+}
+
+.film_show {
+    background-color: #176CB0;
+    color: white;
+    width: 20%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.room, .hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+.full {
+    background-color: #FFEA62;
+    color: black;
+    border: none;
+    padding: 5px;
+    margin: 5px;
 }
