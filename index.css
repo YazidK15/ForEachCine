@@ -15,6 +15,10 @@ img {
     height: 100%;
   }
 
+ul {
+    list-style: none;
+}
+
 /* Header */
 
 header {
@@ -106,4 +110,29 @@ header h1 {
 
 #jumbotron_button button:hover {
     background-color: #b42e2e;
+}
+
+/* Navbar */
+
+#menu {
+    width: 90%;
+    margin: auto;
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu li {
+    background-color: #176CB0;
+    color: white;
+    width: 50%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li:first-child {
+    margin-right: 10px;
 }
