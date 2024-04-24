@@ -227,9 +227,14 @@ header h1 {
     margin: 0px 10px;
 }
 
+.stars {
+    color: #176CB0;
+}
+
 .info_movie h3 {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 
@@ -280,7 +285,6 @@ h3 .material-symbols-outlined {
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .film_show:hover {
