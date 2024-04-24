@@ -175,3 +175,34 @@ header h1 {
     justify-content: space-between;
 }
 
+/* Films */
+
+.image_container {
+    width: 20%;
+}
+
+#movie_list h2 {
+    color: #176CB0;
+}
+
+#movie_list {
+    background-color: red;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.top_movie {
+    background-color: gray;
+    display: flex;
+}
+
+.preview_movie {
+    display: flex;
+    width: 50%;
+}
+
+.movie_description {
+    background-color: blue;
+    width: 50%;
+}
