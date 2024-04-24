@@ -136,3 +136,9 @@ header h1 {
 #menu li:first-child {
     margin-right: 10px;
 }
+
+#menu li:hover {
+    background-color: #16578c;
+    cursor: pointer;
+    font-weight: bold;
+}
