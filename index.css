@@ -195,19 +195,22 @@ header h1 {
     font-size: 10px;
 }
 
-#movie_list h2 {
+#movie_list {
     width: 90%;
-    margin: auto;
-    color: #176CB0;
-    margin-bottom: 20px;
+    margin: 10px auto;
 }
 
-#movie_list ul {
+#movie_list h2 {
+    color: #176CB0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#movie_list li {
     background-color: #ECECEC;
-    width: 90%;
-    margin: auto;
+    margin: 10px 20px;
     padding: 10px;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .top_movie {
@@ -239,8 +242,22 @@ h3 .material-symbols-outlined {
     font-size: 13px;
 }
 
-.category {
+.category_comedy {
     background-color: #508B1A;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.category_action {
+    background-color: #6E27A2;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.category_SF {
+    background-color: #794809;
     color: white;
     border: none;
     padding: 5px;
@@ -264,6 +281,11 @@ h3 .material-symbols-outlined {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.film_show:hover {
+    cursor: pointer;
+    background-color: #165588;
 }
 
 .room, .hours {
