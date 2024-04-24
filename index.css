@@ -142,3 +142,36 @@ header h1 {
     cursor: pointer;
     font-weight: bold;
 }
+
+/* Tarifs */
+
+#price_list {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#price_list h2 {
+    color: #176CB0;
+}
+
+#price_list ul {
+    padding: 20px;
+}
+
+#price_list li {
+    background-color: #ECECEC;   
+    padding: 10px; 
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+}
+
+#price_list li:first-child {
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
