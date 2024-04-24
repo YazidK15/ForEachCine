@@ -321,3 +321,30 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+/* Subscribe div  */
+
+#subscribe_block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #f2d865;
+  
+    position: fixed;
+    top: 0;
+  
+    width: 100%;
+  }
+  
+  #subscribe_block p {
+    width: 100%;
+  }
+  
+  .material-icons {
+    padding: 10px;
+  }
+  
+  .material-icons:hover {
+    background-color: rgb(236, 199, 38);
+    cursor: pointer;
+  }
